@@ -13,6 +13,8 @@ This project is meant to be a lightweight clone of a popular website where users
 "createdDate": String
 }`
 
+<br>
+
 ### GET `/users/{username}` Gets a user
 #### Response
 `{
@@ -20,6 +22,8 @@ This project is meant to be a lightweight clone of a popular website where users
 "username": String,
 "createdDate": String 
 }`
+
+<br>
 
 ### POST `/tree` Creates a new link
 #### Body
@@ -35,6 +39,8 @@ This project is meant to be a lightweight clone of a popular website where users
 "createdDate": String
 }`
 
+<br>
+
 ### GET `/tree/{username}` Gets user's links
 #### Response
 `
@@ -42,6 +48,8 @@ This project is meant to be a lightweight clone of a popular website where users
 String, String, ...
 ]
 `
+
+<br>
 
 ### GET `/hello` - Test endpoint
 #### Response
