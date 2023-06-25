@@ -3,14 +3,7 @@ package com.TreeLink
 import doobie._
 import doobie.implicits._
 import cats.effect.IO
-import cats.effect.unsafe.IORuntime
-import org.http4s.dsl._
-
-import scala.concurrent.ExecutionContext
-import java.sql._
 import cats.effect.unsafe.implicits.global
-
-import java.util.UUID
 
 object DatabaseService {
 
